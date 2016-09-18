@@ -1,0 +1,18 @@
+body {
+    background-image: url(/images/Hero%20photo2.jpg);
+}
+
+.section {
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+
+p {
+    text-align: center;
+}
+
+h3 {
+    text-decoration: underline;
+    text-align: center;
+}

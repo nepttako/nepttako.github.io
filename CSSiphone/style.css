@@ -1,0 +1,130 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0 auto;
+}
+
+.container {
+    width: 80%;
+    height: 440px;
+    position: relative;
+}
+
+.phone1 {
+    border: 3px solid #A89785;
+    border-radius: 30px;
+    width: 218px;
+    height: 439px;
+    float: left;
+    margin-top: 31px;
+    background-color: #f3f3f3;
+}
+
+.phone2 {
+    background-image: url(images/iphoneimage.jpg);
+    background-repeat: no-repeat;
+    background-size: 500px;
+    width: 800px;
+    height: 800px;
+    float: right;
+}
+
+.screen {
+    background-color: black;
+    width: 195px;
+    height: 340px;
+    margin: 47px auto 50px auto;
+    position: relative;
+}
+
+[class*=circle] {
+    border-radius: 100%;
+    position: absolute;
+}
+
+[class*=upper] {
+    border: 1px solid #20272F;
+    background-color: #20272F;
+}
+
+.buttoncircle {
+    border: 2px solid #A89785;
+    bottom: -34.5px;
+    left: 85px;
+    width: 29px;
+    height: 29px;
+}
+
+.uppersmallcircle {
+    width: 4px;
+    height: 4px;
+    top: -38px;
+    left: 96px;
+}
+
+.upperbigcircle {
+    width: 6px;
+    height: 6px;
+    top: -26px;
+    left: 64px;
+}
+
+.upperlinecircle {
+    width: 31px;
+    height: 1px;
+    top: -24px;
+    left: 82px;
+}
+
+[class*=spot] {
+    width: 2px;
+    height: 6px;
+    background-color: #f3f3f3;
+    position: absolute;
+}
+
+.topleftspot {
+    top: 61px;
+}
+
+.toprightspot {
+    top: 61px;
+    left: 216px;
+}
+
+.bottomleftspot {
+    bottom: 0.5px;
+}
+
+.bottomrightspot {
+    bottom: 0.5px;
+    left: 216px;
+}
+
+[class*=press] {
+    position: absolute;
+    background-color: #A89785;
+    left: -1px;
+    width: 2px;
+}
+
+.leftsmallpress {
+    top: 83px;
+    height: 14px;
+}
+
+.leftbigpress1 {
+    top: 115.5px;
+    height: 27px;
+}
+
+.leftbigpress2 {
+    top: 150px;
+    height: 27px;
+}
+
+.rightpress {
+    top: 115.5px;
+    left: 217px;
+    height: 27px;
+}

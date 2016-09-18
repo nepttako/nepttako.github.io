@@ -1,0 +1,105 @@
+@import url(http://fonts.googleapis.com/earlyaccess/cwtexyen.css);
+
+/*font-family: 'cwTeXYen', sans-serif;*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'cwTeXYen', sans-serif;
+}
+
+.container {
+    width: 90%;
+}
+
+.nav {
+    background-color: azure;
+    border-bottom: 1px solid black;
+    border-radius: 3px;
+}
+
+.nav>h1 {
+    font-family: 'cwTeXYen', sans-serif;
+}
+
+ul {
+    float: right;
+}
+
+li,
+a {
+    text-decoration: none;
+    display: inline-block;
+    color: black;
+}
+
+li {
+    margin: 25px 20px;
+    font-size: 20px;
+}
+
+.section {
+    margin-top: 30px;
+}
+
+.meme {
+    position: relative;
+}
+
+#meme img {
+    display: block;
+    margin: 0 auto;
+}
+
+.top-left-caption,
+.top-right-caption,
+.bottom-left-caption,
+.bottom-right-caption {
+    color: white;
+    font-size: 25px;
+    line-height: 40px;
+    text-shadow: 2px 2px black;
+    font-weight: 900;
+}
+
+.top-left-caption {
+    top: 145;
+    left: 95;
+    position: absolute;
+}
+
+.top-right-caption {
+    top: 145;
+    right: 100;
+    position: absolute;
+}
+
+.bottom-left-caption {
+    bottom: 10;
+    left: 200;
+    position: absolute;
+}
+
+.bottom-right-caption {
+    bottom: 10;
+    right: 100;
+    position: absolute;
+}
+
+.tool {
+    margin-top: 30px;
+}
+
+.form-group {
+    font-size: 20px;
+}
+
+.btn {
+    display: block;
+    margin: 50px auto;
+    width: 200px;
+}

@@ -1,0 +1,112 @@
+    /*installed Google font - Oswald and Roboto*/
+    
+    @import 'https://fonts.googleapis.com/css?family=Oswald:300|Roboto+Condensed';
+    /*Global setting for this page*/
+    
+    * {
+        background-color: #ECB88A;
+        /*    Using http://nipponcolors.com/#usugaki */
+        color: #0B1013;
+        /*    Using http://nipponcolors.com/#kurotsurubami*/
+        font-family: 'Roboto Condensed', sans-serif;
+        margin: 0;
+    }
+    /*Title Setting*/
+    
+    h1 {
+        font-size: 70px;
+        font-weight: 900;
+        font-family: 'Oswald', sans-serif;
+    }
+    
+    h2 {
+        font-size: 40px;
+        font-weight: 600;
+        color: #9F353A;
+    }
+    
+    p {
+        font-size: 20px;
+        margin-top: 3px;
+    }
+    /*Company name & location*/
+    
+    h3 {
+        font-size: 20px;
+        margin-top: 6px;
+    }
+    /*Year & Date*/
+    
+    h4 {
+        font-size: 14px;
+        font-weight: 100;
+        margin-top: 3px;
+    }
+    /*Job title*/
+    
+    span {
+        font-style: italic
+    }
+    /*Header Setting*/
+    
+    div {
+        margin-top: 100px;
+        margin-left: 150px;
+        margin-right: 150px;
+        margin-bottom: 200px;
+        background-image: url(images/DSC00338.jpg);
+        background-size: 200px;
+        background-repeat: no-repeat;
+        background-position: 80% 5%
+    }
+    
+    header {
+        width: auto;
+        height: 10px;
+        /*http://nipponcolors.com/#enji*/
+        background-color: #9F353A;
+    }
+    /*Paragraph Setting*/
+    
+    section {
+        text-align: left;
+        margin-left: 10px;
+    }
+    /*Define personal information section*/
+    
+    .info {
+        margin-right: 400px;
+    }
+    /*Define job title */
+    
+    section.info h2 {
+        font-weight: 100;
+        font-size: 40px;
+    }
+    /*Personal infomation list*/
+    
+    ul li {
+        list-style-type: square;
+        margin: 5px;
+    }
+    /*Define Skill & experience section*/
+    
+    .skillandexp {
+        margin-top: 30px;
+        margin-right: auto;
+    }
+    /*Define Footer section*/
+    
+    footer {
+        width: auto;
+        height: 10px;
+        /*http://nipponcolors.com/#enji*/
+        background-color: #9F353A;
+    }
+    
+    .footer {
+        font-size: 14px;
+        font-weight: 100;
+        margin-top: 3px;
+        text-align: right;
+    }
