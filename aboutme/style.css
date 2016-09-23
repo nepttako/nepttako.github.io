@@ -1,0 +1,29 @@
+@import url(https://fonts.googleapis.com/earlyaccess/notosanstc.css);
+@import 'https://fonts.googleapis.com/css?family=Fjalla+One';
+.jumbotron {
+    background-image: url(images/DSC01694.JPG);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 630px;
+    color: white;
+    font-family: 'Fjalla One', 'Noto Sans TC', sans-serif;
+}
+
+h2 {
+    color: white;
+    font-size: 100px;
+}
+
+ul {
+    list-style: square;
+    font-size: 30px;
+    font-weight: 900;
+}
+
+img {
+    height: 80px;
+    border: 1px solid black;
+    position: relative;
+    left: 0;
+    top: 0;
+}
